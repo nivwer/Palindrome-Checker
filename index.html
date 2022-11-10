@@ -4,15 +4,20 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Palindrome Checker</title>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-      <div class="container">
-        <p>Palindrome Checker</p>
-        <input type="text" id="text" placeholder="Enter a word or phrase" required>
-        <input type="text" id="res" readonly="readonly">
-        <button id="checker" onclick="checker()"><b>Check</b></button>
+      <div class="container" data-aos="zoom-out">
+        <p data-aos="zoom-out">Palindrome Checker</p>
+        <input type="text" id="text" placeholder="Enter a word or phrase" required data-aos="zoom-out">
+        <input type="text" id="res" readonly="readonly" data-aos="zoom-out">
+        <button id="checker" onclick="checker()" data-aos="zoom-out"><b>Check</b></button>
       </div>
       <script src="palindrome-checker.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+          AOS.init();
+      </script>
     </body>
 </html>
