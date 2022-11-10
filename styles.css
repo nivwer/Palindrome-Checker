@@ -2,8 +2,8 @@
     --color-letter: #d2d2d2;
     --color-letter2: #020305;
     --color-background: #020305;
-    --color-primary1: #3b0032;
-    --color-primary2: #7d2948;
+    --color-primary1: #770053;
+    --color-primary2: #62475a;
     --color-primary3: #0e0b29;
 }
 
@@ -103,13 +103,13 @@ body {
 
 #checker {
     font-size: 16px;
-    color: var(--color-letter);
+    color:  var(--color-primary1);
     background: var(--color-background);
     text-align: center;
     margin-top: 10px;
     width: 30%;
     height: 40px;
-    border: 3px solid var(--color-primary3);
+    border: 2px solid  var(--color-primary1);
     outline: none;
 	z-index: 0;
 	overflow: hidden;
@@ -120,7 +120,8 @@ body {
 #checker:hover {
     cursor: pointer;
     outline: none;
+    color: var(--color-letter2);
     border: 3px solid var(--color-primary1);
     background: var(--color-primary1);
-    box-shadow: 0px 0px 30px 0px var(--color-primary1);
+    box-shadow: 0px 0px 50px 2px var(--color-primary1);
 }
