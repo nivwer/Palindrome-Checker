@@ -76,7 +76,7 @@ body {
     border-radius: 5px;
 }
 
-.container p {
+.container h1 {
     font-size: clamp(15px, 7vw, 40px);
 }
 
