@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Palindrome Checker</title>
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-      <div class="container" data-aos="zoom-out">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="nivwer">
+    <meta name="description" content="Palindrome Checker Page">
+    <meta name="keywords" content="Palindrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Palindrome Checker</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <div class="container" data-aos="zoom-out">
         <h1 data-aos="zoom-out">Palindrome Checker</h1>
         <input type="text" id="text" placeholder="Enter a word or phrase" required data-aos="zoom-out">
         <input type="text" id="res" readonly="readonly" data-aos="zoom-out">
         <button id="checker" onclick="checker()" data-aos="zoom-out"><b>Check</b></button>
-      </div>
-      <script src="palindrome-checker.js"></script>
-      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-      <script>
-          AOS.init();
-      </script>
-    </body>
+    </div>
+    <div id="nivwer">
+        <a href="https://github.com/nivwer" target="_blank">by nivwer</a>
+    </div>
+    <script src="palindrome-checker.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
 </html>

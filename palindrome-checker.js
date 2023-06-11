@@ -1,6 +1,6 @@
 function palindrome(str) {
-    var stringInput = str.replace(/[(-\/_,.) ]/g, "").toLowerCase();
-    var reversedString = stringInput.split('').reverse().join('');
+    let stringInput = str.replace(/[(-\/_,.) ]/g, "").toLowerCase();
+    let reversedString = stringInput.split('').reverse().join('');
     return (stringInput === reversedString) ? "Is palindrome" : "Is not palindrome";
 }
 
